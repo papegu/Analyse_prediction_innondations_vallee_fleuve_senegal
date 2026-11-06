@@ -1,0 +1,959 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.1) (preloaded format=pdflatex 2026.2.16)  6 NOV 2026 13:20
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./springer_flood_agriculture.tex
+(springer_flood_agriculture.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+(sn-jnl.cls
+Document Class: sn-jnl 2019/11/18 v0.1: An authoring template for Springer Jour
+nal articles
+(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/base\fleqn.clo
+File: fleqn.clo 2016/12/29 v1.2b Standard LaTeX option (flush left equations)
+\mathindent=\skip49
+Applying: [2015/01/01] Make \[ robust on input line 50.
+LaTeX Info: Redefining \[ on input line 51.
+Already applied: [0000/00/00] Make \[ robust on input line 62.
+Applying: [2015/01/01] Make \] robust on input line 74.
+LaTeX Info: Redefining \] on input line 75.
+Already applied: [0000/00/00] Make \] robust on input line 83.
+) (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
+File: size10.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count275
+\c@section=\count276
+\c@subsection=\count277
+\c@subsubsection=\count278
+\c@paragraph=\count279
+\c@subparagraph=\count280
+\c@figure=\count281
+\c@table=\count282
+\abovecaptionskip=\skip50
+\belowcaptionskip=\skip51
+\bibindent=\dimen148
+)
+LaTeX Info: Redefining \rm on input line 144.
+LaTeX Info: Redefining \sf on input line 145.
+LaTeX Info: Redefining \tt on input line 146.
+LaTeX Info: Redefining \bf on input line 147.
+LaTeX Info: Redefining \it on input line 148.
+LaTeX Info: Redefining \sl on input line 149.
+LaTeX Info: Redefining \sc on input line 150.
+LaTeX Info: Redefining \cal on input line 151.
+LaTeX Info: Redefining \mit on input line 152.
+LaTeX Info: Redefining \textsubscript on input line 210.
+\columnhsize=\skip52
+(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+) (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+))
+\Gm@cnth=\count283
+\Gm@cntv=\count284
+\c@Gm@tempcnt=\count285
+\Gm@bindingoffset=\dimen149
+\Gm@wd@mp=\dimen150
+\Gm@odd@mp=\dimen151
+\Gm@even@mp=\dimen152
+\Gm@layoutwidth=\dimen153
+\Gm@layoutheight=\dimen154
+\Gm@layouthoffset=\dimen155
+\Gm@layoutvoffset=\dimen156
+\Gm@dimlist=\toks18
+(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
+\artcatbox=\box53
+\aucount=\count286
+\corraucount=\count287
+\punctcount=\count288
+\emailcnt=\count289
+\c@affn=\count290
+\addcount=\count291
+\PacsCount=\count292
+\PacsTmpCnt=\count293
+\FMremarkdim=\dimen157
+\fmremarkbox=\box54
+(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/sttools\cuted.sty
+Package: cuted 2025/12/15 v2.10 Mixing onecolumn and twocolumn modes (ST)
+\At@ViperColsBreak=\toks19
+\preCutedStrip=\toks20
+\postCutedStrip=\toks21
+\cuted@@tempbox@a=\box55
+\cuted@@tempbox@c=\box56
+\cuted@@tempbox@var=\box57
+\hold@viper=\box58
+\@viper=\box59
+\cuted@@varbox@a=\box60
+\cuted@@varbox@c=\box61
+\cuted@@tempdim@spread=\dimen158
+\cuted@@tempdim@a=\dimen159
+\cuted@@tempdim@b=\dimen160
+\ht@hold@viper=\dimen161
+\ht@viper=\dimen162
+\var@@pagediscards@ht=\dimen163
+\stripsep=\skip53
+\viper@penalty=\count294
+\strip@page@discards=\dimen164
+)
+\firstpagehtcheck=\dimen165
+\labelwidthi=\dimen166
+\labelwidthii=\dimen167
+\labelwidthiii=\dimen168
+\labelwidthiv=\dimen169
+\figwidth=\dimen170
+\figheight=\dimen171
+\sidecapwidth=\dimen172
+\wrapcapline=\dimen173
+\totalwrapline=\dimen174
+\wraptotline=\dimen175
+\figurebox=\box62
+\wrapfigcapbox=\box63
+\figcapbox=\box64
+\capbox=\box65
+\headwidthskip=\skip54
+\tabcapbox=\box66
+\temptbox=\box67
+\tempdime=\dimen176
+\tabhtdime=\dimen177
+(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/graphics\rotating.sty
+Package: rotating 2025/01/14 v2.16e rotated objects in LaTeX
+(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+) (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cf
+g
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen178
+\Gin@req@width=\dimen179
+) (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count295
+\rotFPtop=\skip55
+\rotFPbot=\skip56
+\rot@float@box=\box68
+\rot@mess@toks=\toks22
+)
+(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/threeparttable\threepartta
+ble.sty
+Package: threeparttable 2003/06/13  v 3.0
+\@tempboxb=\box69
+) (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/appendix\appendix.sty
+Package: appendix 2020/02/08 v1.2c extra appendix facilities
+\c@@pps=\count296
+\c@@ppsavesec=\count297
+\c@@ppsaveapp=\count298
+) (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2026-01-29 v7.01p Hypertext links for LaTeX
+(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinekey
+s.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.st
+y
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.st
+y
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)) (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2026-01-29 v2.58 Cross-referencing by name of section
+(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitles
+tring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count299
+) (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count300
+) (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.st
+y
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\@linkdim=\dimen180
+\Hy@linkcounter=\count301
+\Hy@pagecounter=\count302
+(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2026-01-29 v7.01p Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count303
+(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2026-01-29 v7.01p Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4201.
+Package hyperref Info: Link nesting OFF on input line 4206.
+Package hyperref Info: Hyper index ON on input line 4209.
+Package hyperref Info: Plain pages OFF on input line 4216.
+Package hyperref Info: Backreferencing OFF on input line 4221.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4468.
+\c@Hy@tempcnt=\count304
+(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4807.
+\XeTeXLinkMargin=\dimen181
+(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.st
+y
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count305
+\Field@Width=\dimen182
+\Fld@charsize=\dimen183
+Package hyperref Info: Hyper figures OFF on input line 6084.
+Package hyperref Info: Link nesting OFF on input line 6089.
+Package hyperref Info: Hyper index ON on input line 6092.
+Package hyperref Info: backreferencing OFF on input line 6099.
+Package hyperref Info: Link coloring OFF on input line 6104.
+Package hyperref Info: Link coloring with OCG OFF on input line 6109.
+Package hyperref Info: PDF/A mode OFF on input line 6114.
+\Hy@abspage=\count306
+\c@Item=\count307
+\c@Hfootnote=\count308
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2026-01-29 v7.01p Hyperref driver for pdfTeX
+\Fld@listcount=\count309
+\c@bookmark@seq@number=\count310
+
+(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilech
+eck.sty
+Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
+
+(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecoun
+ter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+84.
+)
+\Hy@SectionHShift=\skip57
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 1483.
+Package hyperref Info: Option `breaklinks' set `true' on input line 1483.
+Package hyperref Info: Option `plainpages' set `false' on input line 1483.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 1483.
+Package hyperref Info: Option `bookmarksnumbered' set `false' on input line 148
+3.
+(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.sty
+\wrapoverhang=\dimen184
+\WF@size=\dimen185
+\c@WF@wrappedlines=\count311
+\WF@box=\box70
+\WF@everypar=\toks23
+Package: wrapfig 2003/01/31  v 3.6
+)
+\wraplines=\count312
+\@authorfigbox=\box71
+\@authorfigboxdim=\skip58
+\biofigadjskip=\skip59
+(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/natbib\natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip60
+\bibsep=\skip61
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count313
+)) (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen186
+\lightrulewidth=\dimen187
+\cmidrulewidth=\dimen188
+\belowrulesep=\dimen189
+\belowbottomsep=\dimen190
+\aboverulesep=\dimen191
+\abovetopsep=\dimen192
+\cmidrulesep=\dimen193
+\cmidrulekern=\dimen194
+\defaultaddspace=\dimen195
+\@cmidla=\count314
+\@cmidlb=\count315
+\@aboverulesep=\dimen196
+\@belowrulesep=\dimen197
+\@thisruleclass=\count316
+\@lastruleclass=\count317
+\@thisrulewidth=\dimen198
+) (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2025/07/09 v2.17z AMS math features
+\@mathmargin=\skip62
+For additional information on amsmath, use the `?' option.
+(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2024/11/17 v2.01 AMS text
+(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks24
+\ex@=\dimen199
+)) (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen256
+) (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count318
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count319
+\leftroot@=\count320
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count321
+\DOTSCASE@=\count322
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box72
+\strutbox@=\box73
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen257
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count323
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count324
+\dotsspace@=\muskip18
+\c@parentequation=\count325
+\dspbrk@lvl=\count326
+\tag@help=\toks25
+\row@=\count327
+\column@=\count328
+\maxfields@=\count329
+\andhelp@=\toks26
+\eqnshift@=\dimen258
+\alignsep@=\dimen259
+\tagshift@=\dimen260
+\tagwidth@=\dimen261
+\totwidth@=\dimen262
+\lineht@=\dimen263
+\@envbody=\toks27
+\multlinegap=\skip63
+\multlinetaggap=\skip64
+\mathdisplay@stack=\toks28
+LaTeX Info: Redefining \[ on input line 2950.
+LaTeX Info: Redefining \] on input line 2951.
+) (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
+\multirow@colwidth=\skip65
+\multirow@cntb=\count330
+\multirow@dima=\skip66
+\bigstrutjot=\dimen264
+) (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/ncctools\manyfoot.sty
+Package: manyfoot 2019/08/03 v1.11 Many Footnote Levels Package (NCC)
+(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/ncctools\nccfoots.sty
+Package: nccfoots 2005/02/03 v1.2 NCC Footnotes Package (NCC)
+)
+\MFL@columnwidth=\dimen265
+) (C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+)
+(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex
+.def
+File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count331
+) (springer_flood_agriculture_final.aux)
+\openout1 = `springer_flood_agriculture_final.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+\footinsA=\insert252
+\c@footnoteA=\count332
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* bindingoffset: 17.07164pt
+* modes: twoside 
+* h-part:(L,W,R)=(83.37448pt, 372.0pt, 125.06175pt)
+* v-part:(T,H,B)=(73.97716pt, 552.69478pt, 218.37491pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=372.0pt
+* \textheight=552.69478pt
+* \oddsidemargin=28.17613pt
+* \evensidemargin=52.79176pt
+* \topmargin=-19.72638pt
+* \headheight=5.5pt
+* \headsep=15.93355pt
+* \topskip=10.0pt
+* \footskip=28.45274pt
+* \marginparwidth=34.1433pt
+* \marginparsep=14.22636pt
+* \columnsep=14.22636pt
+* \skip\footins=8.0pt plus 4.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemargintrue
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count333
+\scratchdimen=\dimen266
+\scratchbox=\box74
+\nofMPsegments=\count334
+\nofMParguments=\count335
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count336
+\MPscratchDim=\dimen267
+\MPnumerator=\count337
+\makeMPintoPDFobject=\count338
+\everyMPtoPDFconversion=\toks30
+)
+(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base
+.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+Package hyperref Info: Link coloring ON on input line 15.
+(springer_flood_agriculture_final.out) (springer_flood_agriculture_final.out)
+\@outlinefile=\write3
+\openout3 = `springer_flood_agriculture_final.out'.
+
+LaTeX Font Info:    Calculating math sizes for size <12.045> on input line 32.
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <8.43146> not available
+(Font)              size <8> substituted on input line 32.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <8.43146> not available
+(Font)              size <8> substituted on input line 32.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <8.43146> not available
+(Font)              size <8> substituted on input line 32.
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 32.
+
+(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 32.
+
+(C:\Users\HP\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <8.43146> not available
+(Font)              size <8> substituted on input line 32.
+
+LaTeX Font Info:    Calculating math sizes for size <11.04124> on input line 32
+.
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <5.52061> not available
+(Font)              size <6> substituted on input line 32.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <5.52061> not available
+(Font)              size <6> substituted on input line 32.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <5.52061> not available
+(Font)              size <6> substituted on input line 32.
+
+LaTeX Font Info:    Calculating math sizes for size <10.03749> on input line 32
+.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[1
+
+{C:/Users/HP/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[2]
+Underfull \hbox (badness 2042) in paragraph at lines 64--65
+\OT1/cmr/m/n/10 The study focuses on the Sene-gal River Val-ley (SRV), Sene-gal
+. The point
+ []
+
+<resultats_inondations/13_zone_etude_sites.png, id=155, 536.60475pt x 372.1905p
+t>
+File: resultats_inondations/13_zone_etude_sites.png Graphic file (type png)
+<use resultats_inondations/13_zone_etude_sites.png>
+Package pdftex.def Info: resultats_inondations/13_zone_etude_sites.png  used on
+ input line 68.
+(pdftex.def)             Requested size: 282.71796pt x 196.0958pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[3]
+LaTeX Font Info:    Calculating math sizes for size <8.03> on input line 82.
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4.015> not available
+(Font)              size <5> substituted on input line 82.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <4.015> not available
+(Font)              size <5> substituted on input line 82.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <4.015> not available
+(Font)              size <5> substituted on input line 82.
+
+
+Underfull \hbox (badness 2065) in paragraph at lines 86--87
+[]\OT1/cmr/m/n/8 Potential inun-da-tion proxy; not an
+ []
+
+
+Underfull \hbox (badness 2057) in paragraph at lines 88--88
+\OT1/cmr/m/n/8 day and antecedent rain-fall;
+ []
+
+
+Underfull \hbox (badness 5862) in paragraph at lines 88--89
+[]\OT1/cmr/m/n/8 Coarse pre-cip-i-ta-tion covari-ates; no
+ []
+
+
+Underfull \hbox (badness 3407) in paragraph at lines 90--91
+[]\OT1/cmr/m/n/8 Candidate crop-land con-text; aggre-
+ []
+
+<resultats_inondations/07_correlations_cible.png, id=172, 578.16pt x 361.35pt>
+File: resultats_inondations/07_correlations_cible.png Graphic file (type png)
+<use resultats_inondations/07_correlations_cible.png>
+Package pdftex.def Info: resultats_inondations/07_correlations_cible.png  used 
+on input line 101.
+(pdftex.def)             Requested size: 178.55841pt x 111.5983pt.
+<resultats_inondations/08_matrices_correlation.png, id=173, 1306.116pt x 586.37
+25pt>
+File: resultats_inondations/08_matrices_correlation.png Graphic file (type png)
+
+<use resultats_inondations/08_matrices_correlation.png>
+Package pdftex.def Info: resultats_inondations/08_matrices_correlation.png  use
+d on input line 104.
+(pdftex.def)             Requested size: 178.55841pt x 80.15897pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[4 <./resultats_inondations/13_zone_etude_sites.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[5 <./resultats_inondations/07_correlations_cible.png> <./resultats_inondations
+/08_matrices_correlation.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[6]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[7]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[8]
+Underfull \hbox (badness 3049) in paragraph at lines 197--198
+[]\OT1/cmr/m/n/8 Provisional assump-tion;
+ []
+
+
+Overfull \hbox (14.51569pt too wide) in paragraph at lines 189--202
+ [] 
+ []
+
+
+Overfull \hbox (144.8261pt too wide) in paragraph at lines 206--221
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 233--233
+[]\OT1/cmr/m/n/9 Paddy price
+ []
+
+
+Underfull \hbox (badness 1052) in paragraph at lines 233--233
+[]\OT1/cmr/m/n/9 128,000 / 160,000 /
+ []
+
+
+Underfull \hbox (badness 5388) in paragraph at lines 234--234
+[]\OT1/cmr/m/n/9 Destruction frac-
+ []
+
+
+Overfull \hbox (25.68091pt too wide) in paragraph at lines 223--237
+ [] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[9]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[10]
+<resultats_inondations/01_missingness.png, id=238, 578.16pt x 361.35pt>
+File: resultats_inondations/01_missingness.png Graphic file (type png)
+<use resultats_inondations/01_missingness.png>
+Package pdftex.def Info: resultats_inondations/01_missingness.png  used on inpu
+t line 267.
+(pdftex.def)             Requested size: 178.55841pt x 111.5983pt.
+<resultats_inondations/03_frequence_temporelle.png, id=239, 578.16pt x 289.08pt
+>
+File: resultats_inondations/03_frequence_temporelle.png Graphic file (type png)
+
+<use resultats_inondations/03_frequence_temporelle.png>
+Package pdftex.def Info: resultats_inondations/03_frequence_temporelle.png  use
+d on input line 270.
+(pdftex.def)             Requested size: 178.55841pt x 89.27863pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[11]
+Overfull \hbox (95.3783pt too wide) in paragraph at lines 281--297
+ [] 
+ []
+
+<resultats_inondations/02_superficie_annuelle.png, id=245, 505.89pt x 289.08pt>
+
+File: resultats_inondations/02_superficie_annuelle.png Graphic file (type png)
+<use resultats_inondations/02_superficie_annuelle.png>
+Package pdftex.def Info: resultats_inondations/02_superficie_annuelle.png  used
+ on input line 302.
+(pdftex.def)             Requested size: 178.55841pt x 102.03525pt.
+<resultats_inondations/05_superficie_par_periode.png, id=246, 650.43pt x 289.08
+pt>
+File: resultats_inondations/05_superficie_par_periode.png Graphic file (type pn
+g)
+<use resultats_inondations/05_superficie_par_periode.png>
+Package pdftex.def Info: resultats_inondations/05_superficie_par_periode.png  u
+sed on input line 305.
+(pdftex.def)             Requested size: 178.55841pt x 79.35829pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[12 <./resultats_inondations/01_missingness.png> <./resultats_inondations/03_fr
+equence_temporelle.png>]
+Overfull \hbox (37.74213pt too wide) in paragraph at lines 314--331
+ [] 
+ []
+
+<resultats_inondations/09_comparaison_modeles.png, id=255, 578.16pt x 361.35pt>
+
+File: resultats_inondations/09_comparaison_modeles.png Graphic file (type png)
+<use resultats_inondations/09_comparaison_modeles.png>
+Package pdftex.def Info: resultats_inondations/09_comparaison_modeles.png  used
+ on input line 335.
+(pdftex.def)             Requested size: 290.15955pt x 181.34723pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[13 <./resultats_inondations/02_superficie_annuelle.png> <./resultats_inondatio
+ns/05_superficie_par_periode.png>]
+Overfull \hbox (117.09566pt too wide) in paragraph at lines 343--360
+ [] 
+ []
+
+<resultats_inondations/12_exposition_agricole.png, id=268, 578.16pt x 325.215pt
+>
+File: resultats_inondations/12_exposition_agricole.png Graphic file (type png)
+<use resultats_inondations/12_exposition_agricole.png>
+Package pdftex.def Info: resultats_inondations/12_exposition_agricole.png  used
+ on input line 364.
+(pdftex.def)             Requested size: 282.71796pt x 159.02922pt.
+<resultats_inondations/04_frequence_spatiale_points.png, id=270, 505.89pt x 361
+.35pt>
+File: resultats_inondations/04_frequence_spatiale_points.png Graphic file (type
+ png)
+<use resultats_inondations/04_frequence_spatiale_points.png>
+Package pdftex.def Info: resultats_inondations/04_frequence_spatiale_points.png
+  used on input line 374.
+(pdftex.def)             Requested size: 178.55841pt x 127.54405pt.
+<resultats_inondations/06_modeles_precision_rappel_2024.png, id=271, 505.89pt x
+ 289.08pt>
+File: resultats_inondations/06_modeles_precision_rappel_2024.png Graphic file (
+type png)
+<use resultats_inondations/06_modeles_precision_rappel_2024.png>
+Package pdftex.def Info: resultats_inondations/06_modeles_precision_rappel_2024
+.png  used on input line 377.
+(pdftex.def)             Requested size: 178.55841pt x 102.03525pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[14 <./resultats_inondations/09_comparaison_modeles.png>]
+Overfull \hbox (52.17462pt too wide) in paragraph at lines 404--423
+ [] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[15 <./resultats_inondations/12_exposition_agricole.png> <./resultats_inondatio
+ns/04_frequence_spatiale_points.png> <./resultats_inondations/06_modeles_precis
+ion_rappel_2024.png>]
+<resultats_inondations/10_shap_summary.png, id=290, 615.609pt x 428.6925pt>
+File: resultats_inondations/10_shap_summary.png Graphic file (type png)
+<use resultats_inondations/10_shap_summary.png>
+Package pdftex.def Info: resultats_inondations/10_shap_summary.png  used on inp
+ut line 432.
+(pdftex.def)             Requested size: 178.55841pt x 124.3438pt.
+<resultats_inondations/11_shap_dependance.png, id=291, 430.335pt x 356.751pt>
+File: resultats_inondations/11_shap_dependance.png Graphic file (type png)
+<use resultats_inondations/11_shap_dependance.png>
+Package pdftex.def Info: resultats_inondations/11_shap_dependance.png  used on 
+input line 435.
+(pdftex.def)             Requested size: 178.55841pt x 148.02713pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 454--454
+[]\OT1/cmr/m/n/8 Nevo et al.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 454--454
+\OT1/cmr/m/n/8 extreme-out; median
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 454--455
+[]\OT1/cmr/m/n/8 Gauge/event
+ []
+
+
+Underfull \hbox (badness 1221) in paragraph at lines 454--455
+\OT1/cmr/m/n/8 level next-dekad
+ []
+
+
+Underfull \hbox (badness 2951) in paragraph at lines 455--455
+[]\OT1/cmr/m/n/8 Nearing et al.
+ []
+
+
+Underfull \hbox (badness 4779) in paragraph at lines 455--455
+\OT1/cmr/m/n/8 in ungauged water-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 455--456
+[]\OT1/cmr/m/n/8 Global hydro-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 455--456
+\OT1/cmr/m/n/8 logic warn-ings,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 455--456
+\OT1/cmr/m/n/8 not satellite-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 455--456
+\OT1/cmr/m/n/8 derived point
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 456--457
+[]\OT1/cmr/m/n/8 Valley-specific,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 456--457
+\OT1/cmr/m/n/8 sparse sam-ple;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 456--457
+\OT1/cmr/m/n/8 label is not
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 456--457
+\OT1/cmr/m/n/8 inde-pen-dently
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[16]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[17 <./resultats_inondations/10_shap_summary.png> <./resultats_inondations/11_s
+hap_dependance.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[18]
+Underfull \hbox (badness 1817) in paragraph at lines 485--486
+\OT1/cmr/m/n/10 avail-able from [][]$https : / / github . com / papegu / Analys
+e[]prediction[]innondations[]vallee[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[19] (springer_flood_agriculture_final.bbl
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[20]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[21])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[22] (springer_flood_agriculture_final.aux)
+ ***********
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+ ***********
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.985pt have occurred.
+
+Package rerunfilecheck Info: File `springer_flood_agriculture_final.out' has no
+t changed.
+(rerunfilecheck)             Checksum: C22870EB13B6BA54406659AFB86C109C;5818.
+ ) 
+Here is how much of TeX's memory you used:
+ 12615 strings out of 467866
+ 195975 string characters out of 5419777
+ 627063 words of memory out of 5000000
+ 41192 multiletter control sequences out of 15000+600000
+ 646412 words of font info for 116 fonts, out of 8000000 for 9000
+ 1151 hyphenation exceptions out of 8191
+ 90i,15n,93p,2213b,650s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmb
+x10.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmbx12.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmbx8.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmbx9.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/
+public/amsfonts/cm/cmex10.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/
+fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/HP/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/HP/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/HP/AppData/Local/P
+rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/HP/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/HP/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/HP/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users
+/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/U
+sers/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><
+C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.p
+fb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
+sy10.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmsy7.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmsy8.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmti10.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1
+/public/amsfonts/cm/cmtt10.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on springer_flood_agriculture_final.pdf (22 pages, 1849144 bytes
+).
+PDF statistics:
+ 492 PDF objects out of 1000 (max. 8388607)
+ 117 named destinations out of 1000 (max. 500000)
+ 282 words of extra memory for PDF output out of 10000 (max. 10000000)
+

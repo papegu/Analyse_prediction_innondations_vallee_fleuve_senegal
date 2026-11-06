@@ -1,0 +1,2 @@
+﻿n_rows,n_sites,n_years,valid_next_period_labels,positive_next_period_labels,positive_rate_pct,coordinates_constant_within_site,selected_model_spatial_cv,selection_metric,spatial_cv_average_precision,temporal_2024_average_precision,top_shap_variable
+19200,200,6,13583,511,3.762055510564676,True,Balanced random forest,average_precision,0.21982650900284245,0.668606735040684,S1_VH

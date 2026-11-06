@@ -1,0 +1,2 @@
+﻿modele,train_annees,test_annee,sites_test_inconnus,blocs_spatiaux,n_test,positifs_test,precision_seuil_0_5,rappel_seuil_0_5,f1_seuil_0_5,balanced_accuracy_seuil_0_5,roc_auc,average_precision,brier_score
+Balanced random forest,2019-2023,2024,200,5,2112,80,0.75,0.2625,0.3888888888888889,0.6295275590551181,0.8353838582677166,0.37892527247734153,0.0374865261929716

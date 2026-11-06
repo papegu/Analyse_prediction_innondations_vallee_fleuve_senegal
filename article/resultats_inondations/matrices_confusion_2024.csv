@@ -1,0 +1,21 @@
+﻿modele,observation,prediction,n
+Prevalence baseline,0,0,2032
+Prevalence baseline,0,1,0
+Prevalence baseline,1,0,80
+Prevalence baseline,1,1,0
+Balanced logistic regression,0,0,1253
+Balanced logistic regression,0,1,779
+Balanced logistic regression,1,0,21
+Balanced logistic regression,1,1,59
+Balanced random forest,0,0,2027
+Balanced random forest,0,1,5
+Balanced random forest,1,0,47
+Balanced random forest,1,1,33
+XGBoost,0,0,1875
+XGBoost,0,1,157
+XGBoost,1,0,14
+XGBoost,1,1,66
+CatBoost,0,0,1934
+CatBoost,0,1,98
+CatBoost,1,0,23
+CatBoost,1,1,57

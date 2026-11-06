@@ -1,0 +1,48 @@
+\relax 
+\bibstyle{sn-mathphys}
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\Newlabel{1}{1}
+\citation{zheng2026}
+\citation{bocchino2026}
+\citation{toma2024}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{2}{section.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2}Related work}{2}{section.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Flood mapping from radar and optical imagery}{2}{subsection.2.1}\protected@file@percent }
+\citation{zheng2026}
+\citation{bocchino2026}
+\citation{lateef2025}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Agricultural exposure and crop damage}{3}{subsection.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}Methods}{3}{section.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Study area, period, and sampling framework}{3}{subsection.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Sentinel-1 observations and potential inundation}{3}{subsection.3.2}\protected@file@percent }
+\newlabel{eq:water}{{1}{4}{Sentinel-1 observations and potential inundation}{equation.1}{}}
+\newlabel{eq:flood}{{2}{4}{Sentinel-1 observations and potential inundation}{equation.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Sentinel-2 vegetation and water indices}{4}{subsection.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}CHIRPS precipitation and antecedent rainfall}{5}{subsection.3.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5}Candidate agricultural mask}{5}{subsection.3.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.6}Area and temporal frequency of potential inundation}{5}{subsection.3.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.7}Next-period prediction target and leakage control}{6}{subsection.3.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.8}Model candidates and evaluation}{6}{subsection.3.8}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.9}Validation and uncertainty}{7}{subsection.3.9}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4}Results}{7}{section.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Dataset completeness and temporal coverage}{7}{subsection.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Multiyear inundation dynamics}{7}{subsection.4.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Data missingness among the most incomplete variables (left) and observed prevalence of the next-period inundation target by ten-day period and year (right). The prevalence denominator includes only rows with a valid target.}}{8}{figure.1}\protected@file@percent }
+\newlabel{fig:coverage-prevalence}{{1}{8}{Data missingness among the most incomplete variables (left) and observed prevalence of the next-period inundation target by ten-day period and year (right). The prevalence denominator includes only rows with a valid target}{figure.1}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Period-level mapped inundated area and next-period target prevalence by year. Area values are not unique seasonal totals.}}{8}{table.1}\protected@file@percent }
+\newlabel{tab:annual-flood}{{1}{8}{Period-level mapped inundated area and next-period target prevalence by year. Area values are not unique seasonal totals}{table.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Area summaries derived from the six period-level CSV exports: annual mean and maximum (left), and ten-day trajectories (right). These are mapped potential-inundation estimates, not field-validated flood extents.}}{8}{figure.2}\protected@file@percent }
+\newlabel{fig:flood-area}{{2}{8}{Area summaries derived from the six period-level CSV exports: annual mean and maximum (left), and ten-day trajectories (right). These are mapped potential-inundation estimates, not field-validated flood extents}{figure.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Agricultural exposure}{8}{subsection.4.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Observed recurrence at the 200 sampled sites (left; valid periods only) and precision--recall curves for the held-out 2024 next-period classification task (right).}}{9}{figure.3}\protected@file@percent }
+\newlabel{fig:frequency-model}{{3}{9}{Observed recurrence at the 200 sampled sites (left; valid periods only) and precision--recall curves for the held-out 2024 next-period classification task (right)}{figure.3}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Exploratory model performance on the 2024 chronological hold-out set. The classification threshold is 0.5; average precision is the principal ranking metric under class imbalance.}}{9}{table.2}\protected@file@percent }
+\newlabel{tab:model-performance}{{2}{9}{Exploratory model performance on the 2024 chronological hold-out set. The classification threshold is 0.5; average precision is the principal ranking metric under class imbalance}{table.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Prediction performance}{9}{subsection.4.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5}Discussion}{9}{section.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6}Limitations}{10}{section.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {7}Conclusion}{10}{section.7}\protected@file@percent }
+\bibdata{references}
+\gdef \@abspage@last{11}

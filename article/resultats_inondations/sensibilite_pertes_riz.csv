@@ -1,0 +1,10 @@
+﻿parametre_varie,valeur_testee,surface_affectee_ha_hypothetique,rendement_t_ha,prix_paddy_fcfa_t,coefficient_destruction,production_perdue_t,perte_brute_fcfa
+rendement_t_ha,4.4,1500,4.4,160000,0.5,3300.0,528000000
+rendement_t_ha,5.5,1500,5.5,160000,0.5,4125.0,660000000
+rendement_t_ha,6.6,1500,6.6,160000,0.5,4950.0,792000000
+prix_paddy_fcfa_t,128000.0,1500,5.5,128000,0.5,4125.0,528000000
+prix_paddy_fcfa_t,160000.0,1500,5.5,160000,0.5,4125.0,660000000
+prix_paddy_fcfa_t,192000.0,1500,5.5,192000,0.5,4125.0,792000000
+coefficient_destruction,0.25,1500,5.5,160000,0.25,2062.5,330000000
+coefficient_destruction,0.5,1500,5.5,160000,0.5,4125.0,660000000
+coefficient_destruction,1.0,1500,5.5,160000,1.0,8250.0,1320000000

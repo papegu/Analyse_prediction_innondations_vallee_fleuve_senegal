@@ -1,0 +1,5 @@
+﻿scenario,surface_affectee_ha,rendement_t_ha,prix_paddy_fcfa_t,coefficient_destruction,production_perdue_t,perte_brute_fcfa
+Optimiste (hypothese),1500,4.4,128000,0.25,1650.0,211200000
+Central (hypothese),1500,5.5,160000,0.5,4125.0,660000000
+Pessimiste (hypothese),1500,6.6,192000,1.0,9900.0,1900800000
+"Reference, destruction totale",1500,5.5,160000,1.0,8250.0,1320000000

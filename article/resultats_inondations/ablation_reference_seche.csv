@@ -1,0 +1,3 @@
+﻿modele,ablation,n_features,spatial_oof_average_precision_mean,spatial_oof_average_precision_sd,temporal_2024_average_precision,temporal_2024_roc_auc
+Balanced random forest,All predictors,29,0.42493769211845434,0.21169407472171176,0.7567639861939132,0.9800073818897639
+Balanced random forest,Without dry-reference indicator,28,0.21982650900284245,0.21400907909586786,0.668606735040684,0.9433378444881889
