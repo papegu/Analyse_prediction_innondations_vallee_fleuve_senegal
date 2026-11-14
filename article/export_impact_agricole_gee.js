@@ -99,6 +99,10 @@ function annualImpactTable(year) {
     var water = vv.lt(S1_THRESHOLD_DB);
 
     // Potential new water relative to the annual pre-season reference.
+    // This is a radar proxy, not a field-validated flood map. The exported
+    // "pixels_inondes" field is the count of masked binary flood-proxy pixels
+    // in the selected reduction scale; it should not be interpreted as a
+    // connected-component count or a validated inundated-area measurement.
     var flood = water.and(dryReference.not()).rename('inondation_S1');
     var validRadar = flood.mask().gt(0);
     var flooded = flood.eq(1).and(validRadar);
@@ -106,6 +110,8 @@ function annualImpactTable(year) {
     var cropFlooded = flooded.and(cropMask);
 
     // One combined reducer minimizes the number of full-ROI raster passes.
+    // Area is derived from the sum of pixelArea over the binary flood mask; it is
+    // a proxy-area estimate under the chosen threshold and dry-reference rule.
     var areaBands = ee.Image.cat([
       pixelArea.updateMask(flooded).rename('superficie_inondee_m2'),
       flooded.selfMask().rename('pixels_inondes'),

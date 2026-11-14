@@ -4,11 +4,15 @@
 
 \usepackage{graphicx}
 \usepackage{booktabs}
+\usepackage{tabularx}
+
+\usepackage{array}
 \usepackage{amsmath,amssymb}
 \usepackage{multirow}
 \usepackage{manyfoot}
 \usepackage{url}
 \usepackage{xcolor}
+\usepackage{makecell}
 
 \graphicspath{{resultats_inondations/}}
 
@@ -203,22 +207,31 @@ Gross value at reference yield & 880,000 & FCFA/ha & Derived as $R_{\mathrm{rice
 
 For illustration only, if a separately verified 1,500-ha rice area were fully destroyed, the provisional assumptions yield $Q=1{,}500\times5.5\times1=8{,}250$ t and $L=8{,}250\times160{,}000=1{,}320{,}000{,}000$ FCFA. At an assumed destruction fraction $D=0.50$, these become 4,125 t and 660,000,000 FCFA. These calculations are hypothetical and are not an application of the satellite-derived general agricultural area.
 
+```latex
 \begin{table}[t]
 \centering
 \caption{Illustrative rice-loss scenarios for a hypothetical affected area of 1,500 ha. Low/high yield and price values are $\pm20\%$ sensitivity assumptions around provisional inputs; destruction fractions are scenario assumptions. None is an observed loss.}
 \label{tab:rice-loss-scenarios}
 \small
-\begin{tabular}{lrrrrr}
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.15}
+\begin{tabularx}{\textwidth}{@{}X c c c c r@{}}
 \toprule
-Scenario & Yield (t/ha) & Paddy price (FCFA/t) & $D$ & Production lost (t) & Gross value lost (FCFA) \\
+Scenario &
+\makecell{Yield\\(t/ha)} &
+\makecell{Paddy price\\(FCFA/t)} &
+$D$ &
+\makecell{Production\\lost (t)} &
+\makecell{Gross value\\lost (FCFA)} \\
 \midrule
 Optimistic hypothesis & 4.4 & 128,000 & 0.25 & 1,650 & 211,200,000 \\
 Central hypothesis & 5.5 & 160,000 & 0.50 & 4,125 & 660,000,000 \\
 Pessimistic hypothesis & 6.6 & 192,000 & 1.00 & 9,900 & 1,900,800,000 \\
 Reference, total destruction & 5.5 & 160,000 & 1.00 & 8,250 & 1,320,000,000 \\
 \bottomrule
-\end{tabular}
+\end{tabularx}
 \end{table}
+```
 
 \begin{table}[t]
 \centering
@@ -347,7 +360,8 @@ Six numeric annual agricultural CSV exports provide 96 ten-day summaries at 10-m
 \small
 \begin{tabular}{rrrrr}
 \toprule
-Year & Valid periods & Mean exposed (ha/period) & Maximum (ha) & Pooled observed agricultural area exposed (\%) \\
+Year & Valid periods & Mean exposed (ha/period) & Maximum (ha) & \makecell{Pooled observed\\agricultural area\\exposed (\%)}\\
+%Pooled observed agricultural area exposed (\%) \\
 \midrule
 2019 & 16 & 7,847 & 12,297 & 3.92 \\
 2020 & 16 & 1,936 & 3,748 & 1.76 \\
