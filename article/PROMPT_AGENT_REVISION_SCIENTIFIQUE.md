@@ -30,4 +30,262 @@ Améliorer la rigueur scientifique du manuscrit `article/IJRS_flood_agriculture_
 
 ## Script GEE à auditer
 
-Colle ici le script GEE complet fourni par l'auteur. Il doit être traité comme une spécification à vérifier, pas comme une vérité de terrain ni comme une preuve de validité.
+Le script ci-dessous est à auditer comme une spécification de traitement, pas comme une vérité de terrain ni comme une preuve de validité.
+
+```javascript
+/***************************************************************
+ VALLÉE DU FLEUVE SÉNÉGAL
+ CALCUL ALLÉGÉ DES INONDATIONS : 2019-2024
+
+ Sorties intermédiaires :
+ 1. stats_inondations_2019.csv ... stats_inondations_2024.csv
+ 2. frequence_intermediaire_2019.tif ... _2024.tif
+
+ Le raster annuel contient :
+ - bande 1 : nombre de périodes inondées
+ - bande 2 : nombre de périodes radar valides
+
+ Les six années seront assemblées localement avec Python.
+***************************************************************/
+
+// =============================================================
+// 1. PARAMÈTRES
+// =============================================================
+
+var DRIVE_FOLDER = 'GEE_VFS_SPI_10m';
+
+var START_YEAR = 2019;
+var END_YEAR = 2024;
+
+var THRESHOLD_DB = -16;
+var SCALE_STATS = 100;  // Statistiques surfaciques allégées
+var SCALE_RASTER = 30;  // Raster de fréquence à 30 m
+var EXPORT_CRS = 'EPSG:32628';
+
+var N_PERIODS = 16;
+
+// Zone d'étude
+var roi = ee.Geometry.Polygon(
+  [[
+    [-16.60, 16.35], [-15.50, 16.80],
+    [-14.90, 16.90], [-13.80, 16.45],
+    [-13.00, 15.75], [-12.20, 15.20],
+    [-11.90, 14.40], [-12.50, 14.10],
+    [-13.20, 15.00], [-14.30, 15.55],
+    [-15.30, 15.70], [-16.00, 15.70],
+    [-16.60, 15.85]
+  ]],
+  null,
+  false
+);
+
+Map.centerObject(roi, 8);
+Map.addLayer(roi, {color: 'red'}, 'Zone étude', false);
+
+// =============================================================
+// 2. SENTINEL-1 : VV UNIQUEMENT
+// =============================================================
+
+var s1 = ee.ImageCollection('COPERNICUS/S1_GRD')
+  .filterBounds(roi)
+  .filter(ee.Filter.eq('instrumentMode', 'IW'))
+  .filter(ee.Filter.listContains(
+    'transmitterReceiverPolarisation', 'VV'
+  ))
+  .select('VV');
+
+// Composite VV masqué si aucune image n'est disponible
+function getComposite(start, end) {
+  var col = s1.filterDate(start, end);
+
+  var empty = ee.Image.constant(0)
+    .rename('VV')
+    .updateMask(ee.Image.constant(0));
+
+  var image = ee.Image(ee.Algorithms.If(
+    col.size().gt(0),
+    col.median(),
+    empty
+  ));
+
+  return {
+    image: image,
+    n: col.size()
+  };
+}
+
+// Référence annuelle de saison sèche
+function getDryReference(year) {
+  var start = ee.Date.fromYMD(year, 3, 1);
+  var end = ee.Date.fromYMD(year, 5, 16);
+
+  return getComposite(start, end).image.lt(THRESHOLD_DB);
+}
+
+// =============================================================
+// 3. TRAITEMENT D'UNE ANNÉE
+// =============================================================
+
+function processYear(year) {
+
+  print('Préparation de l’année', year);
+
+  var dry = getDryReference(year);
+
+  var floodList = [];
+  var validList = [];
+  var statsList = [];
+
+  for (var k = 0; k < N_PERIODS; k++) {
+
+    var start = ee.Date.fromYMD(year, 6, 1)
+      .advance(k * 10, 'day');
+
+    var end = start.advance(10, 'day');
+
+    var seasonEnd = ee.Date.fromYMD(year, 11, 1);
+
+    end = ee.Date(ee.Algorithms.If(
+      end.millis().gt(seasonEnd.millis()),
+      seasonEnd,
+      end
+    ));
+
+    var composite = getComposite(start, end);
+    var vv = composite.image;
+
+    // Observation radar disponible
+    var valid = vv.mask()
+      .rename('radar_valide')
+      .clip(roi);
+
+    // Même principe de détection que dans le script initial
+    var water = vv.lt(THRESHOLD_DB);
+
+    var flood = water
+      .and(dry.not())
+      .rename('inondation')
+      .updateMask(valid)
+      .clip(roi);
+
+    floodList.push(flood);
+    validList.push(valid);
+
+    // ---------------------------------------------------------
+    // Statistiques allégées à 100 m
+    // Pas de connectedComponents ni de comptage des zones
+    // ---------------------------------------------------------
+
+    var area = ee.Image.pixelArea()
+      .updateMask(flood)
+      .rename('superficie_m2');
+
+    var pixel = ee.Image.constant(1)
+      .updateMask(flood)
+      .rename('pixels_inondes');
+
+    var reduced = area.addBands(pixel).reduceRegion({
+      reducer: ee.Reducer.sum(),
+      geometry: roi,
+      scale: SCALE_STATS,
+      crs: EXPORT_CRS,
+      maxPixels: 1e10,
+      tileScale: 4
+    });
+
+    var areaM2 = ee.Number(ee.Algorithms.If(
+      reduced.contains('superficie_m2'),
+      reduced.get('superficie_m2'),
+      0
+    ));
+
+    var pixels = ee.Number(ee.Algorithms.If(
+      reduced.contains('pixels_inondes'),
+      reduced.get('pixels_inondes'),
+      0
+    ));
+
+    statsList.push(ee.Feature(null, {
+      annee: year,
+      periode: k + 1,
+      date_debut: start.format('YYYY-MM-dd'),
+      n_images_S1: composite.n,
+      pixels_inondes: pixels,
+      superficie_inondee_m2: areaM2,
+      superficie_inondee_ha: areaM2.divide(10000),
+      echelle_calcul_m: SCALE_STATS
+    }));
+  }
+
+  // -----------------------------------------------------------
+  // EXPORT 1 : statistiques annuelles
+  // -----------------------------------------------------------
+
+  var statsYear = ee.FeatureCollection(statsList);
+
+  Export.table.toDrive({
+    collection: statsYear,
+    description: 'stats_inondations_' + year,
+    folder: DRIVE_FOLDER,
+    fileNamePrefix: 'stats_inondations_' + year,
+    fileFormat: 'CSV'
+  });
+
+  // -----------------------------------------------------------
+  // EXPORT 2 : raster annuel à deux bandes
+  // -----------------------------------------------------------
+
+  var floodImages = ee.ImageCollection.fromImages(
+    floodList.map(function(img) {
+      return img.unmask(0)
+        .rename('periodes_inondees')
+        .clip(roi);
+    })
+  );
+
+  var validImages = ee.ImageCollection.fromImages(
+    validList.map(function(img) {
+      return img.unmask(0)
+        .rename('periodes_valides')
+        .clip(roi);
+    })
+  );
+
+  var floodSum = floodImages.sum()
+    .rename('periodes_inondees');
+
+  var validSum = validImages.sum()
+    .rename('periodes_valides');
+
+  var annualRaster = floodSum
+    .addBands(validSum)
+    .clip(roi);
+
+  Export.image.toDrive({
+    image: annualRaster,
+    description: 'frequence_intermediaire_' + year,
+    folder: DRIVE_FOLDER,
+    fileNamePrefix: 'frequence_intermediaire_' + year,
+    region: roi,
+    scale: SCALE_RASTER,
+    crs: EXPORT_CRS,
+    maxPixels: 1e13,
+    fileFormat: 'GeoTIFF',
+    formatOptions: {
+      cloudOptimized: true
+    }
+  });
+
+  print('Exports préparés pour', year);
+}
+
+// =============================================================
+// 4. PRÉPARER LES SIX ANNÉES
+// =============================================================
+
+for (var year = START_YEAR; year <= END_YEAR; year++) {
+  processYear(year);
+}
+
+print('Terminé : 12 exports intermédiaires à lancer dans Tasks.');
+```
