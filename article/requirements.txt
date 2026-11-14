@@ -1,0 +1,10 @@
+catboost
+earthengine-api
+google-auth
+matplotlib
+numpy
+pandas
+scikit-learn
+scipy
+shap
+xgboost
